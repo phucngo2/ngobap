@@ -1,4 +1,4 @@
-import { Fragment, useRef } from "react";
+import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import ModalInfoLink from "./ModalInfoLink";
 import { referencesList } from "utils/constants";
