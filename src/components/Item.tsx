@@ -43,7 +43,12 @@ const Item: React.FC<ItemProps> = ({ channel, onItemClick, className }) => {
                         {channel.title}
                     </div>
                 </div>
-                <div className="text-sm px-2 py-1 item-description text-justify hide-scroll">
+                <div
+                    className="text-sm px-2 py-1 item-description text-justify hide-scroll"
+                    style={{
+                        wordBreak: "break-word",
+                    }}
+                >
                     {parse(channel.description)}
                 </div>
             </div>

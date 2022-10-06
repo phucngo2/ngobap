@@ -29,7 +29,7 @@ const GoogleLoginButton: React.FC<GoogleLoginButtonProps> = ({
 
     return (
         <button
-            className="rounded-md p-3 bg-white font-bold hover:shadow-lg"
+            className="rounded-md p-3 bg-white font-bold shadow hover:shadow-lg"
             style={{
                 opacity: disabled || extraDisabled ? "0.5" : "1",
             }}
