@@ -166,12 +166,6 @@ export const INFO_LIST: InfoItemType[] = [
         bg: "bg-cyan-200 hover:bg-cyan-400",
     },
     {
-        icon: ["fab", "github"],
-        title: "Web Developer",
-        name: "phucnnh21",
-        url: "https://phucnnh21.github.io/",
-    },
-    {
         icon: ["fas", "paintbrush"],
         title: "Background",
         name: "いちかわはる",
